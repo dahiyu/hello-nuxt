@@ -7,7 +7,7 @@
           <h4>
             <small>
               <span>by </span>
-              <nuxt-link :to="`/users/${item.user.id}`">
+              <nuxt-link :to="`/store/users/${item.user.id}`">
                 {{item.user.id}}
               </nuxt-link>
             </small>
